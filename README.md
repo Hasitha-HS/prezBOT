@@ -1,4 +1,4 @@
-# prezBOT <img width="3000" height="3000" alt="vecteezy_rectangle-discord-icon-logo-symbol_55331330" src="https://github.com/user-attachments/assets/806dbf91-85ac-4c43-a74e-0883789815e0" />
+# prezBOT <img width="30" height="30" alt="vecteezy_rectangle-discord-icon-logo-symbol_55331330" src="https://github.com/user-attachments/assets/806dbf91-85ac-4c43-a74e-0883789815e0" />
 
 
 **An intelligent, multi-interface technical support agent powered by Python, FastAPI, and direct LLM API integration.**
@@ -13,7 +13,7 @@ While the early prototype validated the core logic and response pipelines, the a
 
 ---
 
-## 🏗 Architecture & Tech Stack
+## Architecture & Tech Stack
 
 * **Core Framework:** Python 3.11 & [FastAPI](https://fastapi.tiangolo.com/) (Asynchronous, high-performance web framework)
 * **AI Orchestration:** Direct Anthropic (`anthropic` SDK) & Google Gemini API integrations
