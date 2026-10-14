@@ -1,10 +1,11 @@
-# prezBOT 🤖⚡
+# prezBOT <img width="3000" height="3000" alt="vecteezy_rectangle-discord-icon-logo-symbol_55331330" src="https://github.com/user-attachments/assets/806dbf91-85ac-4c43-a74e-0883789815e0" />
+
 
 **An intelligent, multi-interface technical support agent powered by Python, FastAPI, and direct LLM API integration.**
 
 ---
 
-## 📌 Project Overview & Evolution
+## Project Overview & Evolution
 
 **prezBOT** was created as an initial development to establish a convenient, automated support system for developer workflows and technical communities. 
 
@@ -19,22 +20,9 @@ While the early prototype validated the core logic and response pipelines, the a
 * **Bot Interface:** `discord.py` (Async event loop integration)
 * **Containerization:** Docker & Docker Compose
 * **HTTP Client:** `aiohttp` for non-blocking asynchronous requests
-
-┌─────────────────┐       ┌────────────────────────┐       ┌───────────────────┐
-│                 │       │        prezBOT         │       │                   │
-│  Discord Client ├──────►│   FastAPI Microservice ├──────►│  Claude / Gemini  │
-│  (!ask command) │       │  (Async Engine & REST) │       │    Direct API     │
-│                 │       │                        │       │                   │
-└─────────────────┘       └───────────┬────────────┘       └───────────────────┘
-│
-┌─────────────────┐                   │
-│ Web / External  ├───────────────────┘
-│ REST Consumers  │
-└─────────────────┘
-
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Dual Interface Support:** Operates simultaneously as an active Discord Bot and as a standalone REST API with auto-generated Swagger UI (`/docs`).
 * **Direct LLM SDK Integration:** Bypasses middleman automation layers to directly stream and process prompt context with Anthropic's Claude 3.5 Sonnet / Gemini models.
@@ -44,7 +32,7 @@ While the early prototype validated the core logic and response pipelines, the a
 
 ---
 
-## 🚀 Quick Start (Docker Deployment)
+## Quick Start (Docker Deployment)
 
 ### 1. Prerequisites
 * [Docker Desktop](https://www.docker.com/) installed
